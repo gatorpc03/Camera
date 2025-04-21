@@ -1,0 +1,11 @@
+
+server:
+  protocols: [rtsp]
+
+paths:
+  cam:
+    source: rtsp://Gatorpc03:Mike6453@YOUR_PUBLIC_IP:554/live
+    sourceProtocol: rtsp
+    sourceOnDemand: yes
+    username: admin
+    password: Mike6453

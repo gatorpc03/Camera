@@ -1,0 +1,13 @@
+
+app = "rtsp-relay-baldwin"
+primary_region = "iad"
+
+[build]
+image = "bluenviron/mediamtx"
+
+[[services]]
+  internal_port = 8554
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 8554
